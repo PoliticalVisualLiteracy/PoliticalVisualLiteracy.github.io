@@ -1,0 +1,36 @@
+# links section data
+- last_name: Ishaan
+  first_name: Jhaveri
+  desc: Senior Research Fellow, Columbia University (Primary Contact)
+  website:  
+  email: 
+
+- last_name: Nina
+  first_name: Berman
+  desc: Associate Professor, Columbia University 
+  website: http://www.ninaberman.com/
+  email: nina.berman@protonmail.com
+
+- last_name: Shih-Fu
+  first_name: Chang
+  desc: Professor, Columbia University
+  website: http://www.ee.columbia.edu/~sfchang/
+  email: shih.fu.chang@columbia.edu
+
+- last_name: Svebor
+  first_name: Karaman
+  desc: Associate Research Scientist, Columbia University
+  website: http://www.sveborkaraman.com/
+  email: svebor.karaman@columbia.edu 
+
+- last_name: Susan 
+  first_name: McGregor
+  desc: Assistant Professor, Columbia University
+  website: http://susanemcgregor.com/ 
+  email: 
+
+- last_name: Xu 
+  first_name: Zhang
+  desc: Postdoctoral Research Scientist, Columbia University
+  website: 
+  email: xu.zhang@columbia.edu

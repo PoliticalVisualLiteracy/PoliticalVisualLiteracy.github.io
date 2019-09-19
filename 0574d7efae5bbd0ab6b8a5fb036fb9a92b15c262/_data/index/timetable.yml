@@ -1,0 +1,14 @@
+# schedules section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: NYC Media Lab’s Annual Summit 
+  desc:
+    detail: NYC Media Lab’s Annual Summit
+    link: https://summit.nycmedialab.org/demo-expo#DATA
+    location: New York City College of Technology (CUNY), 285 Jay Street, Brooklyn, NY  
+    location_link: https://www.google.com/maps/place/285+Jay+St,+Brooklyn,+NY+11201/@40.6954522,-73.9881496,17.61z/data=!4m5!3m4!1s0x89c25a4a6580589d:0x69d428c905d9b11c!8m2!3d40.6954775!4d-73.9867728
+    host:   
+  date:
+    detail: 12:30 - 5:00, Sep. 26th 2019
+  icon: fa-flag 
+

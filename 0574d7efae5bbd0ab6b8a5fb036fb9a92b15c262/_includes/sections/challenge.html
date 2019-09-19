@@ -1,0 +1,47 @@
+<style>
+  .bottom-three {
+     margin-bottom: 1.5cm;
+  }
+</style>
+
+<div class="container" id="i18_challenge">
+    <div class="row m-b-lg">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1><span data-i18n="challenge.challenge">Political Visual Literacy APP</span></h1>
+        </div>
+    </div>
+    <div class="row">
+        {% for challenge in site.data.index.challenge %}
+            {% assign loopindex = forloop.index | modulo: 1 %}
+            {% if forloop.last %}
+                {% if forloop.last == forloop.first %}
+            <div class="col-sm-12">
+                {% else %}
+            <div class="col-sm-12">
+                {% endif %}
+            {% else %}
+            <div class="col-sm-12">
+            {% endif %}
+              <div class="team-member">
+                 {% if challenge.info %}
+                    <p class="bottom-three" style="font-size:16px"><span data-i18n="challenge.{{ challenge.i18n }}">{{ challenge.info }}</span></p>
+                 {% endif %}
+                 <h2>
+                 {% if challenge.url %}
+                     <a href="{{ challenge.url }}" target="_blank"><span class="navy">{{ challenge.name }}</span></a>
+                 {% else %}
+                     <span class="navy">{{ challenge.name }}</span>
+                 {% endif %}
+                 </h2>
+                 <p style="font-size:16px"><span data-i18n="challenge.{{ challenge.i18n }}">{{ challenge.desc }}</span></p>
+                 {% if challenge.img %}
+                     <img src="{{ challenge.img | prepend: site.baseurl }}" class="img-responsive " alt="">
+                 {% endif %}
+                 <p class="bottom-three"><span data-i18n="challenge.{{ challenge.i18n }}"> </span></p>
+              </div>
+          </div>
+      {% endfor %}
+    </div>
+</div>
+<br>
