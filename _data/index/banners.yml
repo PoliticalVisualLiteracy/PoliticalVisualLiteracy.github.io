@@ -2,8 +2,11 @@
 # Add items for each banner image in the carousel
 #
 # Images are expected to be located in `static/assets/img/`.
-- src: landing/Columbia_at_Day.jpg
-  title: Columbia Day 
+- src: landing/protest1.jpg
+  title: Protest in Washington, D.C. Photo by Vlad Tchompalov on Unsplash
 
-- src: landing/Columbia_at_Night.jpg
-  title: Columbia Night
+- src: landing/protest2.jpg
+  title: Protest in Hong Kong. Photo by Joseph Chan on Unsplash
+
+- src: landing/protest3.jpg
+  title: Protest in Paris. Photo by Harrison Moore on Unsplash
