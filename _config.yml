@@ -22,7 +22,7 @@ author:  # change following line to your infomation.
   email: iaj2107@columbia.edu # Leave blank if you don't have now
   #cv: http://cv.jarrekk.com  # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
-  desc: Welcome to the Political Visual Literacy project! We are building a tool for photographers and journalists to help them more easily identify political symbols while working in the field. This is a barebones desktop version of what ultimately will be available as a mobile app. For more information on the goals of this project and how it came about, hear Nina Berman's story.  
+  desc: Welcome to the Political Visual Literacy project! We are building a tool for photographers and journalists to help them more easily identify political symbols while working in the field. This is a barebones desktop version of what ultimately will be available as a mobile app. For more information on the goals of this project and how it came about, hear <a href="https://www.cjr.org/tow_center/political-symbols-tow-center.php" target="_blank"><span class="navy">Nina Berman's story</span></a>.   
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
   name: Political Visual Literacy
